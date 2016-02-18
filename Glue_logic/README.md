@@ -13,4 +13,4 @@ switch the corresponding LED should turn off and on.
 The simpliest parity checker is an __ANDgate__, therefore we have decided that we are going to check if the switch is in the position 1 (the signal is HIGH) with an 2-input AND gate. One incomming signal is permanently 1 and the second varies according to the position of the switch. 
 
 
-![Overview of pipelines](Resources/images/GL_truthtable.png)
+![Overview of pipelines](http://tinypic.com/r/10praf5/9)
