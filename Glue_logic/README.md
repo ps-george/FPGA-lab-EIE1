@@ -30,5 +30,7 @@ _LEDs pins_
 
 ![alt tag](http://i66.tinypic.com/118izib.png)
 
-###Improovements
+###Improvements
+
+We could have searched for a 10-bit input AND gate or construct our own symbol to make the circuit "clear". We have found that, the input for the HIGH signal or VCC has to be an actual input otherwise the circuit does not work.
 
