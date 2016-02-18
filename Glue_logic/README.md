@@ -20,6 +20,9 @@ _Truth Table_
 
 The connection to the LEDs is very simple, we have just hard-wired the inputs (switches) and outputs (LEDs) according to the the tables. 
 
+![alt tag](http://i65.tinypic.com/xngqbc.png)
+_LEDs pins_
+
 ###Circuit
 
 ![alt tag](http://i66.tinypic.com/118izib.png)
