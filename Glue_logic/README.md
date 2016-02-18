@@ -18,6 +18,8 @@ The simpliest parity checker is an __ANDgate__, therefore we have decided that w
 | LOW     | HIGH     |   LOW |
 _Truth Table_
 
+The connection to the LEDs is very simple, we have just hard-wired the inputs (switches) and outputs (LEDs) according to the the tables. 
+
 ###Circuit
 
 ![alt tag](http://i66.tinypic.com/118izib.png)
