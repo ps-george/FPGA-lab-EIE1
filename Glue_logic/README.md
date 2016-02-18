@@ -20,7 +20,5 @@ _Truth Table_
 
 ###Circuit
 
-Inline-style: 
-
-![alt tag](http://url/to/img.png)
+![alt tag](http://www.keenthemes.com/preview/conquer/assets/plugins/jcrop/demos/demo_files/image1.jpg)
 
