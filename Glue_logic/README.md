@@ -16,5 +16,10 @@ The simpliest parity checker is an __ANDgate__, therefore we have decided that w
 | ------------- |:-------------:| -----:|
 | HIGH     | HIGH   |      HIGH  |
 | LOW     | HIGH     |   LOW |
+_Truth Table_
 
+###Circuit
+
+Inline-style: 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
