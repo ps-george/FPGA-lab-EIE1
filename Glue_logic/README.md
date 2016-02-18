@@ -21,5 +21,5 @@ _Truth Table_
 ###Circuit
 
 Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](http://pasteboard.co/1Egcqw9B.png "Logo Title Text 1")
 
