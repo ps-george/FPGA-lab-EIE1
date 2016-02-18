@@ -20,5 +20,5 @@ _Truth Table_
 
 ###Circuit
 
-![alt tag](http://www.keenthemes.com/preview/conquer/assets/plugins/jcrop/demos/demo_files/image1.jpg)
+![alt tag](http://pasteboard.co/1Egcqw9B.png)
 
