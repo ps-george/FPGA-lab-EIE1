@@ -6,15 +6,15 @@ This is docummentation to the FPGA Lab in the Spring Term 2016 at Imperial Colle
 
 The goals of this lab were to:
 
-Further develop experience with EDA tools (such as Quartus), and understand the different processes it applies and the types of analysis it performs.
+1. Further develop experience with EDA tools (such as Quartus), and understand the different processes it applies and the types of analysis it performs.
 
-Put a few more of the concepts from digital logic into practise, in particular with the relationship between sequential logic and combinational logic.
+2. Put a few more of the concepts from digital logic into practise, in particular with the relationship between sequential logic and combinational logic.
 
-Be able to independently solve problems with toolchains, and use documentation for tools.
+3. Be able to independently solve problems with toolchains, and use documentation for tools.
 
-Work with digital logic in a real FPGA, as well as simulations of that digital logic.
+4. Work with digital logic in a real FPGA, as well as simulations of that digital logic.
 
-Deal with and resolve uncertainty in specifications.
+5. Deal with and resolve uncertainty in specifications.
 
 The experiments consisted out of: 
  - _Glue Logic_: One of the uses of an FPGA is as glue logic, where it effectively acts as a convenient way of connecting together lights. The DE0 contains 10 lights and 10 switches, so "glue" the switches to the lights - when you toggle each switch the corresponding LED should turn off and on.
