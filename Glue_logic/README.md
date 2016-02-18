@@ -20,5 +20,5 @@ _Truth Table_
 
 ###Circuit
 
-![alt tag](http://pasteboard.co/1Egcqw9B.png)
+![alt tag](http://i66.tinypic.com/118izib.png)
 
