@@ -22,5 +22,5 @@ _Truth Table_
 
 Inline-style: 
 
-![alt text](http://pasteboard.co/1Egcqw9B.png "Logo Title Text 1")
+![alt tag](http://url/to/img.png)
 
