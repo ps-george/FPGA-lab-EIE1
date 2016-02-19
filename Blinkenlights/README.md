@@ -2,7 +2,7 @@
 
 ###Task
 
-We will now add a clock input, give the circuit some states, and get the LEDs to display a 10-bit binary counter, incrementing at a rate of ~47.6837hz (i.e. it should take ~21.5 seconds for the LED counter to wrap round). This circuit does not need any external inputs, it only has its state and outputs.
+We will now add a clock input, give the circuit some state, and get the LEDs to display a 10-bit binary counter, incrementing at a rate of ~47.6837hz (i.e. it should take ~21.5 seconds for the LED counter to wrap round). This circuit does not need any external inputs, it only has its state and outputs.
 
 ###Approach
 
