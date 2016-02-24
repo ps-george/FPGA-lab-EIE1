@@ -42,5 +42,9 @@ The combinational solution depended on unrolling the forloop and establishing si
 4. Repeat 5 times
 5. Output the result
 
+We have created a bloc for the general stage (covering the points 1 to 4):
+
+![alt tag](http://i67.tinypic.com/2rw6p04.png)
+
 
 
