@@ -35,6 +35,7 @@ unsigned multiply(unsigned a, unsigned b)
 ```
 
 The combinational solution depended on unrolling the forloop and establishing simple stages:
+
 1. Shift the result register by 2 (basically add to itself = r=r*2)
 2. If the MSB of A at given stage (5 stages, A[4] -> A[0]) is one then add number B to the result register
 3. Shift the number A to the left by one place. (A[1] = A[0] ... A[4] = A[3])
