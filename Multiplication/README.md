@@ -4,6 +4,9 @@
 
 Multiplication is a form of repeated addition, and while there are some multiplier blocks built into the FPGA, it is useful to know how they are constructed. The notion of pipelining is also an important concept for your project - how can we (and why do we) split one operation across multiple consecutive cycles?
 
+![alt tag](https://github.com/m8pple/eie1_fpga_lab/raw/master/resources/images/multiplier.png)
+__Three different approaches to multiplication__
+
 ####Combinational multiplication circuit
 
 The approach that has to be considered for this exercise should be purely combinatorial. Therefore we decided to apply the standard approach from decimal/binary multiplication (this was our first thought):
