@@ -4,7 +4,7 @@
 
 Multiplication is a form of repeated addition, and while there are some multiplier blocks built into the FPGA, it is useful to know how they are constructed. The notion of pipelining is also an important concept for your project - how can we (and why do we) split one operation across multiple consecutive cycles?
 
-#####Combinational multiplication circuit
+####Combinational multiplication circuit
 
 The approach that has to be considered for this exercise should be purely combinatorial. Therefore we decided to apply the standard approach from decimal/binary multiplication (this was our first thought):
 
@@ -57,7 +57,7 @@ Resulting in the final symbol for the combinational circuit:
 ![alt tag](http://i67.tinypic.com/2gtz1p2.png)
 __The final symbol__
 
-#####Input stored in registers as well as output
+####Input stored in registers as well as output
 
 Our solution enabled us to just add registers before and after the multiplication to store the results. We have assigned 2 buttons as our clocks. The first button serverd to load the input registers with values and the second button served to output the result to the LEDs. Thy symbol then looked like: 
 
