@@ -64,4 +64,12 @@ Our solution enabled us to just add registers before and after the multiplicatio
 ![alt tag](http://i65.tinypic.com/2dszkp.png)
 __Multiplication with registers__
 
+####Pipelined multiplier
+
+This approach requires to add registers after completion of each stage (in total 5). They are all driven by the same clock. what we have found out the circuit does not react only on the rising edge but also the falling edge so in total it took us 3 button pushes to perform the multiplication. 
+
+![alt tag](http://i64.tinypic.com/2lm4ac2.png)
+__Pipelined multiplier__
+
+
 
