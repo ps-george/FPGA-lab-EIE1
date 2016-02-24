@@ -49,5 +49,11 @@ __Stage 0__
 
 Then we have added the 5 stages together to output the result without clock or any registers so the result immediately appeared on the DE0 board.
 
+![alt tag](http://i64.tinypic.com/w7c18w.png)
+__All the stages together__
 
+Resulting in the final symbol for the combinational circuit:
+
+![alt tag](http://i67.tinypic.com/2gtz1p2.png)
+__All the stages together__
 
