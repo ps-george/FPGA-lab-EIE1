@@ -33,6 +33,16 @@ We have divided our solution according to the suggested parts:
 #### 1. A block which generates a tick signal within 1% of the desired frequency.
 
 #### 2. A block which decodes four 4-bit binary digits to the correct 7-segment display signals.
+```
+assign display[0] = ~decimal[3] & (~decimal[2] | ~decimal[0]) & (decimal[2] | decimal[O]) & ~decimal[1];
+assign display[1] = decimal[2] & (~decimal[0] |  ~decimal[1]) & (decimal[0] | decimal[1]);
+assign display[2] = ~decimal[2] & decimal[1] & ~decimal[0];
+assign display[3] = ~decimal[3] & (~decimal[2] | decimal[1] | ~decimal[0]) & (decimal[2] | ~decimal[1]) & (decimal[2] | decimal[0]) & (~decimal[1] | decimal[0]);
+assign display[4] = (decimal[2] | decimal[0]) & (~decimal[1] | decimal[0])
+assign display[5] = ~decimal[3] & (~decimal[2] | decimal[1]) & (~decimal[2] | decimal[0]) & (decimal[1] | decimal[0]);
+assign display[6] = ~decimal[3] & (~decimal[2] | decimal[1]) & (~decimal[2] | decimal[0]) & (decimal[2] | ~decimal[1]);
+  ```
+
 
 #### 3. A block which is able to count to 9999.
   - We have decided to split the problem to 4 parts(for each 7-segment display - total of 4 inputs and 4 outputs). Therefore we have made 4 different counters, which count from 0 to 10. Each counter receives a separate clock signal from the pulse generators developed int the first point. Our findings are that it is easier to manipulate with the smaller blocks and individual pulses rather than carrying a pulse from one pat to another as we can cause glitches. 
