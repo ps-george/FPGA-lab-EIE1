@@ -57,10 +57,12 @@ assign display[6] = ~decimal[3] & (~decimal[2] | decimal[1]) &
 
 #### 3. A block which is able to count to 9999.
   - We have decided to split the problem to 4 parts(for each 7-segment display - total of 4 inputs and 4 outputs). Therefore we have made 4 different counters, which count from 0 to 10. Each counter receives a separate clock signal from the pulse generators developed int the first point. Our findings are that it is easier to manipulate with the smaller blocks and individual pulses rather than carrying a pulse from one pat to another as we can cause glitches. 
-  - ![alt text](http://i65.tinypic.com/11lhg08.png)
-  - __4 counters (from 0 to 10)__
+   ![alt text](http://i65.tinypic.com/11lhg08.png)
+   __4 counters (from 0 to 10)__
 
 #### 4. A block to handle the push-button functionality and state machine.
 
-
+### Final execution
+![alt text](http://i68.tinypic.com/sl4qq8.png)
+[![Stopwatch demonstration](http://i68.tinypic.com/1pi7g0.png)](https://youtu.be/1N2TEmU0eFQ "Stopwatch demonstration")
 
