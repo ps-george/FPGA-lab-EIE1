@@ -30,3 +30,7 @@ We have divided our solution according to the suggested parts:
   3. A block which is able to count to 9999 in [binary-coded-decimal](http://en.wikipedia.org/wiki/Binary-coded_decimal).
   4. A block to handle the push-button functionality and state machine.
 
+#### 1. A block which generates a tick signal within 1% of the desired frequency.
+
+
+
