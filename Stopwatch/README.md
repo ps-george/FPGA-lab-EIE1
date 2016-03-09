@@ -22,3 +22,11 @@ the following functionality:
   between when the "start" and "split" button are presses,
   not the time between consecutive presses of "split".
 
+### Approach
+
+We have divided our solution according to the suggested parts:
+1. A block which generates a tick signal within 1% of the desired frequency.
+2. A block which decodes four 4-bit binary digits to the correct 7-segment display signals.
+3. A block which is able to count to 9999 in [binary-coded-decimal](http://en.wikipedia.org/wiki/Binary-coded_decimal).
+4. A block to handle the push-button functionality and state machine.
+
