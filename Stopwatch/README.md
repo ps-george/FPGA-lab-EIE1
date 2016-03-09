@@ -52,7 +52,7 @@ assign display[5] = ~decimal[3] & (~decimal[2] | decimal[1]) &
 assign display[6] = ~decimal[3] & (~decimal[2] | decimal[1]) & 
 (~decimal[2] | decimal[0]) & (decimal[2] | ~decimal[1]);
 ```
-
+  - This code then parses the input into correct visible output according to the numbers in decimal. We have developed it with a Karnaugh map and double-checked with the web and the standard form. 
 
 #### 3. A block which is able to count to 9999.
   - We have decided to split the problem to 4 parts(for each 7-segment display - total of 4 inputs and 4 outputs). Therefore we have made 4 different counters, which count from 0 to 10. Each counter receives a separate clock signal from the pulse generators developed int the first point. Our findings are that it is easier to manipulate with the smaller blocks and individual pulses rather than carrying a pulse from one pat to another as we can cause glitches. 
