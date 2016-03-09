@@ -34,13 +34,17 @@ We have divided our solution according to the suggested parts:
 
 #### 2. A block which decodes four 4-bit binary digits to the correct 7-segment display signals.
 ```
-assign display[0] = ~decimal[3] & (~decimal[2] | ~decimal[0]) & (decimal[2] | decimal[O]) & ~decimal[1];
+assign display[0] = ~decimal[3] & (~decimal[2] | ~decimal[0]) & (decimal[2] 
+| decimal[O]) & ~decimal[1];
 assign display[1] = decimal[2] & (~decimal[0] |  ~decimal[1]) & (decimal[0] | decimal[1]);
 assign display[2] = ~decimal[2] & decimal[1] & ~decimal[0];
-assign display[3] = ~decimal[3] & (~decimal[2] | decimal[1] | ~decimal[0]) & (decimal[2] | ~decimal[1]) & (decimal[2]| decimal[0]) & (~decimal[1] | decimal[0]);
+assign display[3] = ~decimal[3] & (~decimal[2] | decimal[1] | ~decimal[0])
+& (decimal[2] | ~decimal[1]) & (decimal[2]| decimal[0]) & (~decimal[1] | decimal[0]);
 assign display[4] = (decimal[2] | decimal[0]) & (~decimal[1] | decimal[0])
-assign display[5] = ~decimal[3] & (~decimal[2] | decimal[1]) & (~decimal[2] | decimal[0]) & (decimal[1] | decimal[0]);
-assign display[6] = ~decimal[3] & (~decimal[2] | decimal[1]) & (~decimal[2] | decimal[0]) & (decimal[2] | ~decimal[1]);
+assign display[5] = ~decimal[3] & (~decimal[2] | decimal[1]) & 
+(~decimal[2] | decimal[0]) & (decimal[1] | decimal[0]);
+assign display[6] = ~decimal[3] & (~decimal[2] | decimal[1]) & 
+(~decimal[2] | decimal[0]) & (decimal[2] | ~decimal[1]);
 ```
 
 
