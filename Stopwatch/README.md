@@ -34,7 +34,8 @@ We have divided our solution according to the suggested parts:
 
 #### 2. A block which decodes four 4-bit binary digits to the correct 7-segment display signals.
 
-#### 3. A block which is able to count to 9999 in [binary-coded-decimal](http://en.wikipedia.org/wiki/Binary-coded_decimal).
+#### 3. A block which is able to count to 9999.
+  - We have decided to split the problem to 4 parts(for each 7-segment display - total of 4). Therefore we have made 4 different counters, which count from 0 to 10. Each counter receives a separate clock signal from the pulse generators developed int the first point. Our findings are that it is easier to manipulate with the smaller blocks and individual pulses rather than carrying a pulse from one pat to another as we can cause glitches. 
 
 #### 4. A block to handle the push-button functionality and state machine.
 
