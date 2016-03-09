@@ -33,7 +33,7 @@ We have divided our solution according to the suggested parts:
 #### 1. A block which generates a tick signal within 1% of the desired frequency.
 
 #### 2. A block which decodes four 4-bit binary digits to the correct 7-segment display signals.
-```
+```Verilog
 assign display[0] = ~decimal[3] & (~decimal[2] | ~decimal[0]) & (decimal[2] 
 | decimal[O]) & ~decimal[1];
 
