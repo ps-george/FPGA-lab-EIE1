@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="stopwatch">
+		<CBX_INST_ENTRY INSTANCE_NAME="|stopwatch|counters2:inst2|counter:100mscounter1|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_rql.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|stopwatch|counters2:inst2|counter:1scounter2|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_rql.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|stopwatch|tick_generator:inst|bigcounter1:inst3|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_5si.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|stopwatch|tick_generator:inst|lpm_compare2:inst7|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_tpi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|stopwatch|tick_generator:inst|lpm_counter0:inst11|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_u5k.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|stopwatch|tick_generator:inst|lpm_counter0:inst6|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_u5k.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|stopwatch|counters2:inst2|counter:10mscounter|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_rql.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|stopwatch|counters2:inst2|counter:10scounter3|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_rql.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|stopwatch|tick_generator:inst|lpm_compare1:inst1|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_fcj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|stopwatch|tick_generator:inst|lpm_compare2:inst2|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_tpi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|stopwatch|tick_generator:inst|lpm_compare2:inst4|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_tpi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|stopwatch|tick_generator:inst|lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_u5k.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

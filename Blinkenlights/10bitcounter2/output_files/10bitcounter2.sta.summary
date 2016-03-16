@@ -1,0 +1,365 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'Clk'
+Slack : 0.071
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'jkflipflop:inst2|inst'
+Slack : 0.082
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'jkflipflop:inst6|inst'
+Slack : 0.089
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'jkflipflop:inst4|inst'
+Slack : 0.105
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'jkflipflop:inst1|inst'
+Slack : 0.126
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'jkflipflop:inst3|inst'
+Slack : 0.128
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'jkflipflop:inst7|inst'
+Slack : 0.146
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'jkflipflop:inst|inst'
+Slack : 0.285
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'jkflipflop:inst5|inst'
+Slack : 0.288
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'jkflipflop:inst8|inst'
+Slack : 0.317
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Clk'
+Slack : -0.080
+TNS   : -0.080
+
+Type  : Slow 1200mV 85C Model Hold 'jkflipflop:inst7|inst'
+Slack : -0.044
+TNS   : -0.044
+
+Type  : Slow 1200mV 85C Model Hold 'jkflipflop:inst1|inst'
+Slack : -0.033
+TNS   : -0.033
+
+Type  : Slow 1200mV 85C Model Hold 'jkflipflop:inst3|inst'
+Slack : -0.011
+TNS   : -0.011
+
+Type  : Slow 1200mV 85C Model Hold 'jkflipflop:inst4|inst'
+Slack : 0.004
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'jkflipflop:inst5|inst'
+Slack : 0.012
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'jkflipflop:inst|inst'
+Slack : 0.016
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'jkflipflop:inst6|inst'
+Slack : 0.077
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'jkflipflop:inst2|inst'
+Slack : 0.160
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'jkflipflop:inst8|inst'
+Slack : 0.384
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Clk'
+Slack : -3.000
+TNS   : -4.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'jkflipflop:inst1|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'jkflipflop:inst2|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'jkflipflop:inst3|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'jkflipflop:inst4|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'jkflipflop:inst5|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'jkflipflop:inst6|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'jkflipflop:inst7|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'jkflipflop:inst8|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'jkflipflop:inst|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Setup 'jkflipflop:inst6|inst'
+Slack : 0.121
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'jkflipflop:inst2|inst'
+Slack : 0.124
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'jkflipflop:inst4|inst'
+Slack : 0.154
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'jkflipflop:inst1|inst'
+Slack : 0.175
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'jkflipflop:inst3|inst'
+Slack : 0.178
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'jkflipflop:inst7|inst'
+Slack : 0.184
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'Clk'
+Slack : 0.199
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'jkflipflop:inst|inst'
+Slack : 0.306
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'jkflipflop:inst5|inst'
+Slack : 0.307
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'jkflipflop:inst8|inst'
+Slack : 0.398
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Clk'
+Slack : -0.151
+TNS   : -0.151
+
+Type  : Slow 1200mV 0C Model Hold 'jkflipflop:inst1|inst'
+Slack : -0.043
+TNS   : -0.043
+
+Type  : Slow 1200mV 0C Model Hold 'jkflipflop:inst7|inst'
+Slack : -0.035
+TNS   : -0.035
+
+Type  : Slow 1200mV 0C Model Hold 'jkflipflop:inst3|inst'
+Slack : -0.014
+TNS   : -0.014
+
+Type  : Slow 1200mV 0C Model Hold 'jkflipflop:inst4|inst'
+Slack : 0.003
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'jkflipflop:inst5|inst'
+Slack : 0.016
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'jkflipflop:inst|inst'
+Slack : 0.020
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'jkflipflop:inst6|inst'
+Slack : 0.072
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'jkflipflop:inst2|inst'
+Slack : 0.142
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'jkflipflop:inst8|inst'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Clk'
+Slack : -3.000
+TNS   : -4.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'jkflipflop:inst1|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'jkflipflop:inst2|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'jkflipflop:inst3|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'jkflipflop:inst4|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'jkflipflop:inst5|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'jkflipflop:inst6|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'jkflipflop:inst7|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'jkflipflop:inst8|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'jkflipflop:inst|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Setup 'Clk'
+Slack : 0.233
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'jkflipflop:inst2|inst'
+Slack : 0.297
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'jkflipflop:inst4|inst'
+Slack : 0.299
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'jkflipflop:inst6|inst'
+Slack : 0.309
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'jkflipflop:inst3|inst'
+Slack : 0.315
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'jkflipflop:inst7|inst'
+Slack : 0.329
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'jkflipflop:inst1|inst'
+Slack : 0.343
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'jkflipflop:inst|inst'
+Slack : 0.409
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'jkflipflop:inst5|inst'
+Slack : 0.413
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'jkflipflop:inst8|inst'
+Slack : 0.624
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'jkflipflop:inst1|inst'
+Slack : -0.076
+TNS   : -0.076
+
+Type  : Fast 1200mV 0C Model Hold 'jkflipflop:inst7|inst'
+Slack : -0.054
+TNS   : -0.054
+
+Type  : Fast 1200mV 0C Model Hold 'Clk'
+Slack : -0.044
+TNS   : -0.044
+
+Type  : Fast 1200mV 0C Model Hold 'jkflipflop:inst3|inst'
+Slack : -0.033
+TNS   : -0.033
+
+Type  : Fast 1200mV 0C Model Hold 'jkflipflop:inst5|inst'
+Slack : -0.027
+TNS   : -0.027
+
+Type  : Fast 1200mV 0C Model Hold 'jkflipflop:inst|inst'
+Slack : -0.024
+TNS   : -0.024
+
+Type  : Fast 1200mV 0C Model Hold 'jkflipflop:inst4|inst'
+Slack : -0.021
+TNS   : -0.021
+
+Type  : Fast 1200mV 0C Model Hold 'jkflipflop:inst6|inst'
+Slack : 0.004
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'jkflipflop:inst2|inst'
+Slack : 0.065
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'jkflipflop:inst8|inst'
+Slack : 0.206
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Clk'
+Slack : -3.000
+TNS   : -4.086
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'jkflipflop:inst1|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'jkflipflop:inst2|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'jkflipflop:inst3|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'jkflipflop:inst4|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'jkflipflop:inst5|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'jkflipflop:inst6|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'jkflipflop:inst7|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'jkflipflop:inst8|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'jkflipflop:inst|inst'
+Slack : -1.000
+TNS   : -1.000
+
+------------------------------------------------------------

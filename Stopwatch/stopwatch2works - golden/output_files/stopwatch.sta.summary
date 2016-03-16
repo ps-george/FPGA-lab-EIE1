@@ -1,0 +1,257 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'BUTTON_2_F1'
+Slack : -2.352
+TNS   : -31.858
+
+Type  : Slow 1200mV 85C Model Setup 'tick_generator:inst|lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_u5k:auto_generated|counter_reg_bit[0]'
+Slack : -1.914
+TNS   : -14.060
+
+Type  : Slow 1200mV 85C Model Setup 'tick_generator:inst|lpm_counter0:inst11|lpm_counter:LPM_COUNTER_component|cntr_u5k:auto_generated|counter_reg_bit[0]'
+Slack : -1.901
+TNS   : -7.604
+
+Type  : Slow 1200mV 85C Model Setup 'tick_generator:inst|lpm_counter0:inst6|lpm_counter:LPM_COUNTER_component|cntr_u5k:auto_generated|counter_reg_bit[0]'
+Slack : -1.900
+TNS   : -13.876
+
+Type  : Slow 1200mV 85C Model Setup 'tick_generator:inst|bigcounter1:inst3|lpm_counter:LPM_COUNTER_component|cntr_5si:auto_generated|counter_reg_bit[0]'
+Slack : -1.895
+TNS   : -13.953
+
+Type  : Slow 1200mV 85C Model Setup 'clk_PIN_'
+Slack : -1.533
+TNS   : -25.086
+
+Type  : Slow 1200mV 85C Model Hold 'clk_PIN_'
+Slack : -1.166
+TNS   : -11.681
+
+Type  : Slow 1200mV 85C Model Hold 'tick_generator:inst|bigcounter1:inst3|lpm_counter:LPM_COUNTER_component|cntr_5si:auto_generated|counter_reg_bit[0]'
+Slack : -1.041
+TNS   : -3.193
+
+Type  : Slow 1200mV 85C Model Hold 'tick_generator:inst|lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_u5k:auto_generated|counter_reg_bit[0]'
+Slack : -0.645
+TNS   : -1.498
+
+Type  : Slow 1200mV 85C Model Hold 'tick_generator:inst|lpm_counter0:inst6|lpm_counter:LPM_COUNTER_component|cntr_u5k:auto_generated|counter_reg_bit[0]'
+Slack : -0.556
+TNS   : -1.514
+
+Type  : Slow 1200mV 85C Model Hold 'tick_generator:inst|lpm_counter0:inst11|lpm_counter:LPM_COUNTER_component|cntr_u5k:auto_generated|counter_reg_bit[0]'
+Slack : 0.578
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'BUTTON_2_F1'
+Slack : 1.226
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'clk_PIN_'
+Slack : -3.178
+TNS   : -57.254
+
+Type  : Slow 1200mV 85C Model Removal 'clk_PIN_'
+Slack : -0.840
+TNS   : -13.230
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_PIN_'
+Slack : -3.000
+TNS   : -22.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'START_B1_G3'
+Slack : -3.000
+TNS   : -4.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'BUTTON_2_F1'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'tick_generator:inst|bigcounter1:inst3|lpm_counter:LPM_COUNTER_component|cntr_5si:auto_generated|counter_reg_bit[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'tick_generator:inst|lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_u5k:auto_generated|counter_reg_bit[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'tick_generator:inst|lpm_counter0:inst6|lpm_counter:LPM_COUNTER_component|cntr_u5k:auto_generated|counter_reg_bit[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'tick_generator:inst|lpm_counter0:inst11|lpm_counter:LPM_COUNTER_component|cntr_u5k:auto_generated|counter_reg_bit[0]'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Slow 1200mV 0C Model Setup 'BUTTON_2_F1'
+Slack : -1.907
+TNS   : -25.599
+
+Type  : Slow 1200mV 0C Model Setup 'tick_generator:inst|lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_u5k:auto_generated|counter_reg_bit[0]'
+Slack : -1.738
+TNS   : -12.089
+
+Type  : Slow 1200mV 0C Model Setup 'tick_generator:inst|lpm_counter0:inst11|lpm_counter:LPM_COUNTER_component|cntr_u5k:auto_generated|counter_reg_bit[0]'
+Slack : -1.593
+TNS   : -6.372
+
+Type  : Slow 1200mV 0C Model Setup 'tick_generator:inst|lpm_counter0:inst6|lpm_counter:LPM_COUNTER_component|cntr_u5k:auto_generated|counter_reg_bit[0]'
+Slack : -1.592
+TNS   : -11.533
+
+Type  : Slow 1200mV 0C Model Setup 'tick_generator:inst|bigcounter1:inst3|lpm_counter:LPM_COUNTER_component|cntr_5si:auto_generated|counter_reg_bit[0]'
+Slack : -1.588
+TNS   : -11.606
+
+Type  : Slow 1200mV 0C Model Setup 'clk_PIN_'
+Slack : -1.238
+TNS   : -21.546
+
+Type  : Slow 1200mV 0C Model Hold 'clk_PIN_'
+Slack : -1.096
+TNS   : -11.805
+
+Type  : Slow 1200mV 0C Model Hold 'tick_generator:inst|bigcounter1:inst3|lpm_counter:LPM_COUNTER_component|cntr_5si:auto_generated|counter_reg_bit[0]'
+Slack : -0.973
+TNS   : -2.994
+
+Type  : Slow 1200mV 0C Model Hold 'tick_generator:inst|lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_u5k:auto_generated|counter_reg_bit[0]'
+Slack : -0.600
+TNS   : -1.394
+
+Type  : Slow 1200mV 0C Model Hold 'tick_generator:inst|lpm_counter0:inst6|lpm_counter:LPM_COUNTER_component|cntr_u5k:auto_generated|counter_reg_bit[0]'
+Slack : -0.530
+TNS   : -1.439
+
+Type  : Slow 1200mV 0C Model Hold 'tick_generator:inst|lpm_counter0:inst11|lpm_counter:LPM_COUNTER_component|cntr_u5k:auto_generated|counter_reg_bit[0]'
+Slack : 0.518
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'BUTTON_2_F1'
+Slack : 1.016
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'clk_PIN_'
+Slack : -2.747
+TNS   : -49.362
+
+Type  : Slow 1200mV 0C Model Removal 'clk_PIN_'
+Slack : -0.832
+TNS   : -13.388
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_PIN_'
+Slack : -3.000
+TNS   : -22.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'START_B1_G3'
+Slack : -3.000
+TNS   : -4.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'BUTTON_2_F1'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'tick_generator:inst|bigcounter1:inst3|lpm_counter:LPM_COUNTER_component|cntr_5si:auto_generated|counter_reg_bit[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'tick_generator:inst|lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_u5k:auto_generated|counter_reg_bit[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'tick_generator:inst|lpm_counter0:inst6|lpm_counter:LPM_COUNTER_component|cntr_u5k:auto_generated|counter_reg_bit[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'tick_generator:inst|lpm_counter0:inst11|lpm_counter:LPM_COUNTER_component|cntr_u5k:auto_generated|counter_reg_bit[0]'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Fast 1200mV 0C Model Setup 'tick_generator:inst|lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_u5k:auto_generated|counter_reg_bit[0]'
+Slack : -1.046
+TNS   : -5.519
+
+Type  : Fast 1200mV 0C Model Setup 'clk_PIN_'
+Slack : -0.898
+TNS   : -15.262
+
+Type  : Fast 1200mV 0C Model Setup 'tick_generator:inst|lpm_counter0:inst6|lpm_counter:LPM_COUNTER_component|cntr_u5k:auto_generated|counter_reg_bit[0]'
+Slack : -0.792
+TNS   : -4.876
+
+Type  : Fast 1200mV 0C Model Setup 'tick_generator:inst|bigcounter1:inst3|lpm_counter:LPM_COUNTER_component|cntr_5si:auto_generated|counter_reg_bit[0]'
+Slack : -0.734
+TNS   : -4.730
+
+Type  : Fast 1200mV 0C Model Setup 'tick_generator:inst|lpm_counter0:inst11|lpm_counter:LPM_COUNTER_component|cntr_u5k:auto_generated|counter_reg_bit[0]'
+Slack : -0.600
+TNS   : -2.400
+
+Type  : Fast 1200mV 0C Model Setup 'BUTTON_2_F1'
+Slack : -0.594
+TNS   : -5.953
+
+Type  : Fast 1200mV 0C Model Hold 'clk_PIN_'
+Slack : -0.742
+TNS   : -8.098
+
+Type  : Fast 1200mV 0C Model Hold 'tick_generator:inst|bigcounter1:inst3|lpm_counter:LPM_COUNTER_component|cntr_5si:auto_generated|counter_reg_bit[0]'
+Slack : -0.571
+TNS   : -1.777
+
+Type  : Fast 1200mV 0C Model Hold 'tick_generator:inst|lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_u5k:auto_generated|counter_reg_bit[0]'
+Slack : -0.363
+TNS   : -0.826
+
+Type  : Fast 1200mV 0C Model Hold 'tick_generator:inst|lpm_counter0:inst6|lpm_counter:LPM_COUNTER_component|cntr_u5k:auto_generated|counter_reg_bit[0]'
+Slack : -0.309
+TNS   : -0.849
+
+Type  : Fast 1200mV 0C Model Hold 'tick_generator:inst|lpm_counter0:inst11|lpm_counter:LPM_COUNTER_component|cntr_u5k:auto_generated|counter_reg_bit[0]'
+Slack : 0.310
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'BUTTON_2_F1'
+Slack : 0.361
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'clk_PIN_'
+Slack : -1.353
+TNS   : -24.003
+
+Type  : Fast 1200mV 0C Model Removal 'clk_PIN_'
+Slack : -0.558
+TNS   : -8.882
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_PIN_'
+Slack : -3.000
+TNS   : -22.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'START_B1_G3'
+Slack : -3.000
+TNS   : -4.196
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'BUTTON_2_F1'
+Slack : -3.000
+TNS   : -3.022
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'tick_generator:inst|bigcounter1:inst3|lpm_counter:LPM_COUNTER_component|cntr_5si:auto_generated|counter_reg_bit[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'tick_generator:inst|lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_u5k:auto_generated|counter_reg_bit[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'tick_generator:inst|lpm_counter0:inst6|lpm_counter:LPM_COUNTER_component|cntr_u5k:auto_generated|counter_reg_bit[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'tick_generator:inst|lpm_counter0:inst11|lpm_counter:LPM_COUNTER_component|cntr_u5k:auto_generated|counter_reg_bit[0]'
+Slack : -1.000
+TNS   : -4.000
+
+------------------------------------------------------------

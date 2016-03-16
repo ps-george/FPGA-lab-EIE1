@@ -1,0 +1,114 @@
+|10bitcounter2
+b0 <= jkflipflop:inst.Q
+VCC => jkflipflop:inst.J
+VCC => jkflipflop:inst.K
+VCC => jkflipflop:inst1.J
+VCC => jkflipflop:inst1.K
+VCC => jkflipflop:inst2.J
+VCC => jkflipflop:inst2.K
+VCC => jkflipflop:inst3.J
+VCC => jkflipflop:inst3.K
+VCC => jkflipflop:inst4.J
+VCC => jkflipflop:inst4.K
+VCC => jkflipflop:inst5.J
+VCC => jkflipflop:inst5.K
+VCC => jkflipflop:inst6.J
+VCC => jkflipflop:inst6.K
+VCC => jkflipflop:inst7.J
+VCC => jkflipflop:inst7.K
+VCC => jkflipflop:inst8.J
+VCC => jkflipflop:inst8.K
+VCC => jkflipflop:inst9.J
+VCC => jkflipflop:inst9.K
+Clk => jkflipflop:inst.Clk
+b1 <= jkflipflop:inst1.Q
+b2 <= jkflipflop:inst2.Q
+b3 <= jkflipflop:inst3.Q
+b4 <= jkflipflop:inst4.Q
+b5 <= jkflipflop:inst5.Q
+b6 <= jkflipflop:inst6.Q
+b7 <= jkflipflop:inst7.Q
+b8 <= jkflipflop:inst8.Q
+b9 <= jkflipflop:inst9.Q
+
+
+|10bitcounter2|jkflipflop:inst
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+K => inst.IN0
+J => inst.IN1
+Clk => inst.CLK
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|10bitcounter2|jkflipflop:inst1
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+K => inst.IN0
+J => inst.IN1
+Clk => inst.CLK
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|10bitcounter2|jkflipflop:inst2
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+K => inst.IN0
+J => inst.IN1
+Clk => inst.CLK
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|10bitcounter2|jkflipflop:inst3
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+K => inst.IN0
+J => inst.IN1
+Clk => inst.CLK
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|10bitcounter2|jkflipflop:inst4
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+K => inst.IN0
+J => inst.IN1
+Clk => inst.CLK
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|10bitcounter2|jkflipflop:inst5
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+K => inst.IN0
+J => inst.IN1
+Clk => inst.CLK
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|10bitcounter2|jkflipflop:inst6
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+K => inst.IN0
+J => inst.IN1
+Clk => inst.CLK
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|10bitcounter2|jkflipflop:inst7
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+K => inst.IN0
+J => inst.IN1
+Clk => inst.CLK
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|10bitcounter2|jkflipflop:inst8
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+K => inst.IN0
+J => inst.IN1
+Clk => inst.CLK
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|10bitcounter2|jkflipflop:inst9
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+K => inst.IN0
+J => inst.IN1
+Clk => inst.CLK
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+

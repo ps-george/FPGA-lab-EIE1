@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pin_planner>
+	<pin_info>
+		<pin name="pin_name1" source="Pin Planner" >
+		</pin>
+		<pin name="pin_name2" source="Pin Planner" >
+		</pin>
+		<pin name="pin_name11" source="Pin Planner" >
+		</pin>
+		<pin name="pin_name12" source="Pin Planner" >
+		</pin>
+		<pin name="pin_name13" source="Pin Planner" >
+		</pin>
+		<pin name="pin_name14" source="Pin Planner" >
+		</pin>
+		<pin name="pin_name15" source="Pin Planner" >
+		</pin>
+		<pin name="pin_name16" source="Pin Planner" >
+		</pin>
+		<pin name="pin_name17" source="Pin Planner" >
+		</pin>
+		<pin name="pin_name18" source="Pin Planner" >
+		</pin>
+		<pin name="pin_name19" source="Pin Planner" >
+		</pin>
+		<pin name="pin_name20" source="Pin Planner" >
+		</pin>
+		<pin name="pin_nam3" source="Pin Planner" >
+		</pin>
+		<pin name="pin_nam4" source="Pin Planner" >
+		</pin>
+		<pin name="pin_nam5" source="Pin Planner" >
+		</pin>
+		<pin name="pin_nam6" source="Pin Planner" >
+		</pin>
+		<pin name="pin_nam7" source="Pin Planner" >
+		</pin>
+		<pin name="pin_nam8" source="Pin Planner" >
+		</pin>
+		<pin name="pin_nam9" source="Pin Planner" >
+		</pin>
+		<pin name="pin_nam10" source="Pin Planner" >
+		</pin>
+	</pin_info>
+	<buses>
+	</buses>
+	<group_file_association>
+	</group_file_association>
+	<pin_planner_file_specifies>
+	</pin_planner_file_specifies>
+</pin_planner>

@@ -1,0 +1,22 @@
+Quartus II Archive log --	//icnas2.cc.ic.ac.uk/gsp14/Desktop/FPGA Lab/Glue_Logic_tmp_archive.qarlog
+
+Archive:	//icnas2.cc.ic.ac.uk/gsp14/Desktop/FPGA Lab/Glue_Logic_tmp_archive.qar
+Date:		Tue Feb 16 14:42:42 2016
+Quartus II 64-Bit		13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+
+	=========== Files Selected: ===========
+//icnas2.cc.ic.ac.uk/gsp14/Desktop/FPGA Lab/Glue_Logic.bdf
+//icnas2.cc.ic.ac.uk/gsp14/Desktop/FPGA Lab/Glue_Logic.qpf
+//icnas2.cc.ic.ac.uk/gsp14/Desktop/FPGA Lab/Glue_Logic.qsf
+//icnas2.cc.ic.ac.uk/gsp14/Desktop/FPGA Lab/incremental_db/compiled_partitions/Glue_Logic.db_info
+c:/altera/13.0sp1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 5 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Tue Feb 16 14:42:43 2016
+Source archive file:	//icnas2.cc.ic.ac.uk/gsp14/Desktop/FPGA Lab/Glue_Logic_tmp_archive.qar
+Archive was extracted into	//icnas2.cc.ic.ac.uk/gsp14/Desktop/FPGA Lab/
+		 - successfully.

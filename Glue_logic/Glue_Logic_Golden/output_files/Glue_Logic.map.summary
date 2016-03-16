@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Feb 16 14:49:36 2016
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : Glue_Logic
+Top-level Entity Name : Glue_Logic
+Family : Cyclone III
+Total logic elements : 10
+    Total combinational functions : 10
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 21
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

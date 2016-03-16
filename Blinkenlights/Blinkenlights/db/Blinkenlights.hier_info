@@ -1,0 +1,290 @@
+|Blinkenlights
+pin_name1 <= 10bitcounter2:inst2.b0
+VCC => 10bitcounter2:inst2.VCC
+clock => altclkctrl0:inst1.inclk
+pin_name2 <= 10bitcounter2:inst2.b2
+pin_name3 <= 10bitcounter2:inst2.b1
+pin_name4 <= 10bitcounter2:inst2.b3
+pin_name5 <= 10bitcounter2:inst2.b4
+pin_name6 <= 10bitcounter2:inst2.b5
+pin_name7 <= 10bitcounter2:inst2.b6
+pin_name8 <= 10bitcounter2:inst2.b7
+pin_name9 <= 10bitcounter2:inst2.b8
+pin_name10 <= 10bitcounter2:inst2.b9
+
+
+|Blinkenlights|10bitcounter2:inst2
+b0 <= jkflipflop:inst.Q
+VCC => jkflipflop:inst.J
+VCC => jkflipflop:inst.K
+VCC => jkflipflop:inst1.J
+VCC => jkflipflop:inst1.K
+VCC => jkflipflop:inst2.J
+VCC => jkflipflop:inst2.K
+VCC => jkflipflop:inst3.J
+VCC => jkflipflop:inst3.K
+VCC => jkflipflop:inst4.J
+VCC => jkflipflop:inst4.K
+VCC => jkflipflop:inst5.J
+VCC => jkflipflop:inst5.K
+VCC => jkflipflop:inst6.J
+VCC => jkflipflop:inst6.K
+VCC => jkflipflop:inst7.J
+VCC => jkflipflop:inst7.K
+VCC => jkflipflop:inst8.J
+VCC => jkflipflop:inst8.K
+VCC => jkflipflop:inst9.J
+VCC => jkflipflop:inst9.K
+Clk => jkflipflop:inst.Clk
+b1 <= jkflipflop:inst1.Q
+b2 <= jkflipflop:inst2.Q
+b3 <= jkflipflop:inst3.Q
+b4 <= jkflipflop:inst4.Q
+b5 <= jkflipflop:inst5.Q
+b6 <= jkflipflop:inst6.Q
+b7 <= jkflipflop:inst7.Q
+b8 <= jkflipflop:inst8.Q
+b9 <= jkflipflop:inst9.Q
+
+
+|Blinkenlights|10bitcounter2:inst2|jkflipflop:inst
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+K => inst.IN0
+J => inst.IN1
+Clk => inst.CLK
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Blinkenlights|10bitcounter2:inst2|jkflipflop:inst1
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+K => inst.IN0
+J => inst.IN1
+Clk => inst.CLK
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Blinkenlights|10bitcounter2:inst2|jkflipflop:inst2
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+K => inst.IN0
+J => inst.IN1
+Clk => inst.CLK
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Blinkenlights|10bitcounter2:inst2|jkflipflop:inst3
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+K => inst.IN0
+J => inst.IN1
+Clk => inst.CLK
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Blinkenlights|10bitcounter2:inst2|jkflipflop:inst4
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+K => inst.IN0
+J => inst.IN1
+Clk => inst.CLK
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Blinkenlights|10bitcounter2:inst2|jkflipflop:inst5
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+K => inst.IN0
+J => inst.IN1
+Clk => inst.CLK
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Blinkenlights|10bitcounter2:inst2|jkflipflop:inst6
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+K => inst.IN0
+J => inst.IN1
+Clk => inst.CLK
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Blinkenlights|10bitcounter2:inst2|jkflipflop:inst7
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+K => inst.IN0
+J => inst.IN1
+Clk => inst.CLK
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Blinkenlights|10bitcounter2:inst2|jkflipflop:inst8
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+K => inst.IN0
+J => inst.IN1
+Clk => inst.CLK
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Blinkenlights|10bitcounter2:inst2|jkflipflop:inst9
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+K => inst.IN0
+J => inst.IN1
+Clk => inst.CLK
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Blinkenlights|clockdivider2-20:inst
+clk_divided <= dflipflop:inst21.Q
+Clk => dflipflop:inst2.Clk
+
+
+|Blinkenlights|clockdivider2-20:inst|dflipflop:inst21
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Clk => inst.CLK
+D => inst.DATAIN
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Blinkenlights|clockdivider2-20:inst|dflipflop:inst20
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Clk => inst.CLK
+D => inst.DATAIN
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Blinkenlights|clockdivider2-20:inst|dflipflop:inst19
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Clk => inst.CLK
+D => inst.DATAIN
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Blinkenlights|clockdivider2-20:inst|dflipflop:inst18
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Clk => inst.CLK
+D => inst.DATAIN
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Blinkenlights|clockdivider2-20:inst|dflipflop:inst17
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Clk => inst.CLK
+D => inst.DATAIN
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Blinkenlights|clockdivider2-20:inst|dflipflop:inst16
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Clk => inst.CLK
+D => inst.DATAIN
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Blinkenlights|clockdivider2-20:inst|dflipflop:inst15
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Clk => inst.CLK
+D => inst.DATAIN
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Blinkenlights|clockdivider2-20:inst|dflipflop:inst14
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Clk => inst.CLK
+D => inst.DATAIN
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Blinkenlights|clockdivider2-20:inst|dflipflop:inst13
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Clk => inst.CLK
+D => inst.DATAIN
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Blinkenlights|clockdivider2-20:inst|dflipflop:inst12
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Clk => inst.CLK
+D => inst.DATAIN
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Blinkenlights|clockdivider2-20:inst|dflipflop:inst11
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Clk => inst.CLK
+D => inst.DATAIN
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Blinkenlights|clockdivider2-20:inst|dflipflop:inst10
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Clk => inst.CLK
+D => inst.DATAIN
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Blinkenlights|clockdivider2-20:inst|dflipflop:inst9
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Clk => inst.CLK
+D => inst.DATAIN
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Blinkenlights|clockdivider2-20:inst|dflipflop:inst8
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Clk => inst.CLK
+D => inst.DATAIN
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Blinkenlights|clockdivider2-20:inst|dflipflop:inst7
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Clk => inst.CLK
+D => inst.DATAIN
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Blinkenlights|clockdivider2-20:inst|dflipflop:inst6
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Clk => inst.CLK
+D => inst.DATAIN
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Blinkenlights|clockdivider2-20:inst|dflipflop:inst5
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Clk => inst.CLK
+D => inst.DATAIN
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Blinkenlights|clockdivider2-20:inst|dflipflop:inst4
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Clk => inst.CLK
+D => inst.DATAIN
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Blinkenlights|clockdivider2-20:inst|dflipflop:inst3
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Clk => inst.CLK
+D => inst.DATAIN
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Blinkenlights|clockdivider2-20:inst|dflipflop:inst2
+Qnot <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Clk => inst.CLK
+D => inst.DATAIN
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Blinkenlights|altclkctrl0:inst1
+inclk => altclkctrl0_altclkctrl_uhi:altclkctrl0_altclkctrl_uhi_component.inclk[0]
+outclk <= altclkctrl0_altclkctrl_uhi:altclkctrl0_altclkctrl_uhi_component.outclk
+
+
+|Blinkenlights|altclkctrl0:inst1|altclkctrl0_altclkctrl_uhi:altclkctrl0_altclkctrl_uhi_component
+clkselect[0] => clkctrl1.CLKSELECT
+clkselect[1] => clkctrl1.CLKSELECT1
+ena => clkctrl1.ENA
+inclk[0] => clkctrl1.INCLK
+inclk[1] => clkctrl1.INCLK1
+inclk[2] => clkctrl1.INCLK2
+inclk[3] => clkctrl1.INCLK3
+outclk <= clkctrl1.CLK
+
+

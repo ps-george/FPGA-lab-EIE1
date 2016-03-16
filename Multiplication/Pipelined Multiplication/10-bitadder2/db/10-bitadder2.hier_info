@@ -1,0 +1,375 @@
+|10-bitadder2
+Cout <= fulladd:inst10.Carry_out
+R[0] => fulladd:inst.B
+R[1] => fulladd:inst1.B
+R[2] => fulladd:inst2.B
+R[3] => fulladd:inst4.B
+R[4] => fulladd:inst5.B
+R[5] => fulladd:inst6.B
+R[6] => fulladd:inst7.B
+R[7] => fulladd:inst8.B
+R[8] => fulladd:inst9.B
+R[9] => fulladd:inst10.B
+EN => inst14.IN0
+EN => inst13.IN0
+EN => inst12.IN0
+EN => inst11.IN0
+EN => inst3.IN0
+B[0] => inst3.IN1
+B[1] => inst11.IN1
+B[2] => inst12.IN1
+B[3] => inst13.IN1
+B[4] => inst14.IN1
+Cin => fulladd:inst.Carry_in
+S[0] <= fulladd:inst.SUM
+S[1] <= fulladd:inst1.SUM
+S[2] <= fulladd:inst2.SUM
+S[3] <= fulladd:inst4.SUM
+S[4] <= fulladd:inst5.SUM
+S[5] <= fulladd:inst6.SUM
+S[6] <= fulladd:inst7.SUM
+S[7] <= fulladd:inst8.SUM
+S[8] <= fulladd:inst9.SUM
+S[9] <= fulladd:inst10.SUM
+
+
+|10-bitadder2|fulladd:inst10
+Carry_out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => halfadd:inst.A
+B => halfadd:inst.B
+Carry_in => halfadd:inst1.B
+SUM <= halfadd:inst1.SUM
+
+
+|10-bitadder2|fulladd:inst10|halfadd:inst1
+CARRY <= invertor.DB_MAX_OUTPUT_PORT_TYPE
+B => NAND.IN0
+B => inst1.IN1
+B => inst2.IN0
+B => inst2.IN1
+A => NAND.IN1
+A => inst.IN0
+A => inst.IN1
+A => inst4.IN1
+SUM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|10-bitadder2|fulladd:inst10|halfadd:inst
+CARRY <= invertor.DB_MAX_OUTPUT_PORT_TYPE
+B => NAND.IN0
+B => inst1.IN1
+B => inst2.IN0
+B => inst2.IN1
+A => NAND.IN1
+A => inst.IN0
+A => inst.IN1
+A => inst4.IN1
+SUM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|10-bitadder2|fulladd:inst9
+Carry_out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => halfadd:inst.A
+B => halfadd:inst.B
+Carry_in => halfadd:inst1.B
+SUM <= halfadd:inst1.SUM
+
+
+|10-bitadder2|fulladd:inst9|halfadd:inst1
+CARRY <= invertor.DB_MAX_OUTPUT_PORT_TYPE
+B => NAND.IN0
+B => inst1.IN1
+B => inst2.IN0
+B => inst2.IN1
+A => NAND.IN1
+A => inst.IN0
+A => inst.IN1
+A => inst4.IN1
+SUM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|10-bitadder2|fulladd:inst9|halfadd:inst
+CARRY <= invertor.DB_MAX_OUTPUT_PORT_TYPE
+B => NAND.IN0
+B => inst1.IN1
+B => inst2.IN0
+B => inst2.IN1
+A => NAND.IN1
+A => inst.IN0
+A => inst.IN1
+A => inst4.IN1
+SUM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|10-bitadder2|fulladd:inst8
+Carry_out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => halfadd:inst.A
+B => halfadd:inst.B
+Carry_in => halfadd:inst1.B
+SUM <= halfadd:inst1.SUM
+
+
+|10-bitadder2|fulladd:inst8|halfadd:inst1
+CARRY <= invertor.DB_MAX_OUTPUT_PORT_TYPE
+B => NAND.IN0
+B => inst1.IN1
+B => inst2.IN0
+B => inst2.IN1
+A => NAND.IN1
+A => inst.IN0
+A => inst.IN1
+A => inst4.IN1
+SUM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|10-bitadder2|fulladd:inst8|halfadd:inst
+CARRY <= invertor.DB_MAX_OUTPUT_PORT_TYPE
+B => NAND.IN0
+B => inst1.IN1
+B => inst2.IN0
+B => inst2.IN1
+A => NAND.IN1
+A => inst.IN0
+A => inst.IN1
+A => inst4.IN1
+SUM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|10-bitadder2|fulladd:inst7
+Carry_out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => halfadd:inst.A
+B => halfadd:inst.B
+Carry_in => halfadd:inst1.B
+SUM <= halfadd:inst1.SUM
+
+
+|10-bitadder2|fulladd:inst7|halfadd:inst1
+CARRY <= invertor.DB_MAX_OUTPUT_PORT_TYPE
+B => NAND.IN0
+B => inst1.IN1
+B => inst2.IN0
+B => inst2.IN1
+A => NAND.IN1
+A => inst.IN0
+A => inst.IN1
+A => inst4.IN1
+SUM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|10-bitadder2|fulladd:inst7|halfadd:inst
+CARRY <= invertor.DB_MAX_OUTPUT_PORT_TYPE
+B => NAND.IN0
+B => inst1.IN1
+B => inst2.IN0
+B => inst2.IN1
+A => NAND.IN1
+A => inst.IN0
+A => inst.IN1
+A => inst4.IN1
+SUM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|10-bitadder2|fulladd:inst6
+Carry_out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => halfadd:inst.A
+B => halfadd:inst.B
+Carry_in => halfadd:inst1.B
+SUM <= halfadd:inst1.SUM
+
+
+|10-bitadder2|fulladd:inst6|halfadd:inst1
+CARRY <= invertor.DB_MAX_OUTPUT_PORT_TYPE
+B => NAND.IN0
+B => inst1.IN1
+B => inst2.IN0
+B => inst2.IN1
+A => NAND.IN1
+A => inst.IN0
+A => inst.IN1
+A => inst4.IN1
+SUM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|10-bitadder2|fulladd:inst6|halfadd:inst
+CARRY <= invertor.DB_MAX_OUTPUT_PORT_TYPE
+B => NAND.IN0
+B => inst1.IN1
+B => inst2.IN0
+B => inst2.IN1
+A => NAND.IN1
+A => inst.IN0
+A => inst.IN1
+A => inst4.IN1
+SUM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|10-bitadder2|fulladd:inst5
+Carry_out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => halfadd:inst.A
+B => halfadd:inst.B
+Carry_in => halfadd:inst1.B
+SUM <= halfadd:inst1.SUM
+
+
+|10-bitadder2|fulladd:inst5|halfadd:inst1
+CARRY <= invertor.DB_MAX_OUTPUT_PORT_TYPE
+B => NAND.IN0
+B => inst1.IN1
+B => inst2.IN0
+B => inst2.IN1
+A => NAND.IN1
+A => inst.IN0
+A => inst.IN1
+A => inst4.IN1
+SUM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|10-bitadder2|fulladd:inst5|halfadd:inst
+CARRY <= invertor.DB_MAX_OUTPUT_PORT_TYPE
+B => NAND.IN0
+B => inst1.IN1
+B => inst2.IN0
+B => inst2.IN1
+A => NAND.IN1
+A => inst.IN0
+A => inst.IN1
+A => inst4.IN1
+SUM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|10-bitadder2|fulladd:inst4
+Carry_out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => halfadd:inst.A
+B => halfadd:inst.B
+Carry_in => halfadd:inst1.B
+SUM <= halfadd:inst1.SUM
+
+
+|10-bitadder2|fulladd:inst4|halfadd:inst1
+CARRY <= invertor.DB_MAX_OUTPUT_PORT_TYPE
+B => NAND.IN0
+B => inst1.IN1
+B => inst2.IN0
+B => inst2.IN1
+A => NAND.IN1
+A => inst.IN0
+A => inst.IN1
+A => inst4.IN1
+SUM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|10-bitadder2|fulladd:inst4|halfadd:inst
+CARRY <= invertor.DB_MAX_OUTPUT_PORT_TYPE
+B => NAND.IN0
+B => inst1.IN1
+B => inst2.IN0
+B => inst2.IN1
+A => NAND.IN1
+A => inst.IN0
+A => inst.IN1
+A => inst4.IN1
+SUM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|10-bitadder2|fulladd:inst2
+Carry_out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => halfadd:inst.A
+B => halfadd:inst.B
+Carry_in => halfadd:inst1.B
+SUM <= halfadd:inst1.SUM
+
+
+|10-bitadder2|fulladd:inst2|halfadd:inst1
+CARRY <= invertor.DB_MAX_OUTPUT_PORT_TYPE
+B => NAND.IN0
+B => inst1.IN1
+B => inst2.IN0
+B => inst2.IN1
+A => NAND.IN1
+A => inst.IN0
+A => inst.IN1
+A => inst4.IN1
+SUM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|10-bitadder2|fulladd:inst2|halfadd:inst
+CARRY <= invertor.DB_MAX_OUTPUT_PORT_TYPE
+B => NAND.IN0
+B => inst1.IN1
+B => inst2.IN0
+B => inst2.IN1
+A => NAND.IN1
+A => inst.IN0
+A => inst.IN1
+A => inst4.IN1
+SUM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|10-bitadder2|fulladd:inst1
+Carry_out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => halfadd:inst.A
+B => halfadd:inst.B
+Carry_in => halfadd:inst1.B
+SUM <= halfadd:inst1.SUM
+
+
+|10-bitadder2|fulladd:inst1|halfadd:inst1
+CARRY <= invertor.DB_MAX_OUTPUT_PORT_TYPE
+B => NAND.IN0
+B => inst1.IN1
+B => inst2.IN0
+B => inst2.IN1
+A => NAND.IN1
+A => inst.IN0
+A => inst.IN1
+A => inst4.IN1
+SUM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|10-bitadder2|fulladd:inst1|halfadd:inst
+CARRY <= invertor.DB_MAX_OUTPUT_PORT_TYPE
+B => NAND.IN0
+B => inst1.IN1
+B => inst2.IN0
+B => inst2.IN1
+A => NAND.IN1
+A => inst.IN0
+A => inst.IN1
+A => inst4.IN1
+SUM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|10-bitadder2|fulladd:inst
+Carry_out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => halfadd:inst.A
+B => halfadd:inst.B
+Carry_in => halfadd:inst1.B
+SUM <= halfadd:inst1.SUM
+
+
+|10-bitadder2|fulladd:inst|halfadd:inst1
+CARRY <= invertor.DB_MAX_OUTPUT_PORT_TYPE
+B => NAND.IN0
+B => inst1.IN1
+B => inst2.IN0
+B => inst2.IN1
+A => NAND.IN1
+A => inst.IN0
+A => inst.IN1
+A => inst4.IN1
+SUM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|10-bitadder2|fulladd:inst|halfadd:inst
+CARRY <= invertor.DB_MAX_OUTPUT_PORT_TYPE
+B => NAND.IN0
+B => inst1.IN1
+B => inst2.IN0
+B => inst2.IN1
+A => NAND.IN1
+A => inst.IN0
+A => inst.IN1
+A => inst4.IN1
+SUM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
