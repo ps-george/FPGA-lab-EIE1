@@ -6,7 +6,7 @@ We will now add a clock input, give the circuit some state, and get the LEDs to 
 
 ###Approach
 
-1. _Frequency divider:_ To achieve the frequency ~47.6837hz we had to decrease the frequency from the 50MHz supported by the DE0 development board. We did it by combining  __D flip-flops__. Each D flip-flop in the chain slows down the signal by one half. The first D flip-flop from 50MHz to 25MHz and so on. By sequentially connecting 20 of them we slow down the signal to the required frequency. After creating our frequency divider, we created a symbol so that when connecting our devices we just simply feed our clock signal into the symbol.
+1. _Frequency divider:_ To achieve the frequency ~47.6837hz we had to decrease the frequency from the 50MHz supported by the DE0 development board. We did it by combining  __D flip-flops__. Each D flip-flop in the chain slows down the signal by one half. The first D flip-flop from 50MHz to 25MHz and so on. By sequentially connecting 20 of them we slow down the signal to the required frequency of 50000000/2^20 = 47.6837. After creating our frequency divider, we created a symbol so that when connecting our devices we just simply feed our clock signal into the symbol.
 
 ![alt text](http://www.electronics-tutorials.ws/counter/cou1.gif?81223b)
 
