@@ -20,5 +20,4 @@ To finalise the circuit we simply fed the output of our 10-bit counter into a sy
 ![alt text](http://i63.tinypic.com/ml31fk.png)
 
 ### Final execution
-![alt text](http://i65.tinypic.com/qq397o.png)
-[![Blinkenlights ](http://i65.tinypic.com/qq397o.png)](https://youtu.be/4OuUAhfuz54 "Blinkenlights")
+[![Blinkenlights](http://i65.tinypic.com/qq397o.png)](https://youtu.be/4OuUAhfuz54 "Blinkenlights")
