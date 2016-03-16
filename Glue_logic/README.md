@@ -5,8 +5,8 @@
 One of the uses of an FPGA is as [glue logic](http://en.wikipedia.org/wiki/Glue_logic),
 where it effectively acts as a convenient way of connecting
 together lights. The DE0 contains 10 lights and 10 switches,
-so "glue" the switches to the lights - when you toggle each
-switch the corresponding LED should turn off and on.
+so "glues" the switches to the lights - when you toggle each
+switch the corresponding LED should turn off or on.
 
 ###Approach
 
@@ -32,5 +32,5 @@ _LEDs pins_
 
 ###Improvements
 
-We could have searched for a 10-bit input AND gate or construct our own symbol to make the circuit "clear". We have found that, the input for the HIGH signal or VCC has to be an actual input otherwise the circuit does not work.
+We could have searched for a 10-bit input AND gate or construct our own symbol to make the circuit "clear". We have found that the input for the HIGH signal or VCC has to be an actual input otherwise the circuit does not work.
 
