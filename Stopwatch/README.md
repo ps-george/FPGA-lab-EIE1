@@ -30,6 +30,7 @@ We have divided our solution according to the suggested parts:
 
 #### 1. A block which generates a tick signal within 1% of the desired frequency.
   - For this, we created a block which splits the clock signal into 4 new clock signals. First, we divided the original clock frequency of 50MHz, which would count in 0.00000002s, into 100Hz, which would count in 0.01s. We did this by creating a Counter that would count to 500,000, incrementing every clock cycle. When it reached 500,000, it outputs a pulse to indicate that 0.01s has passed, then started again. This method allowed a quick and easy clock division to an exact value, within 1% of the target frequency, which would have been difficult to implement usig D-flipflops. Then, we divided our 100Hz signal into 10Hz, and 10Hz to 1Hz and 1Hz to 0.1 Hz, outputting each clock frequency from the block for use in our independent counters.
+  - ![alt-text](https://github.com/fexter-svk/EIE1-FPGA-lab-2016/blob/master/Resources/FPGA%20lab%20screenshots/stopwatch/clock_splitter.PNG)
   - We discovered that this method of having independent clock signals and counters avoided any major glitches that was previously occuring from connecting our counters in series.
 
 #### 2. A block which decodes four 4-bit binary digits to the correct 7-segment display signals.
