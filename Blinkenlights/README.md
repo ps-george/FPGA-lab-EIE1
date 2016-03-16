@@ -18,3 +18,7 @@ We will now add a clock input, give the circuit some state, and get the LEDs to 
 #####Final circuit
 To finalise the circuit we simply fed the output of our 10-bit counter into a symbol we created for our glue logic task, and took the output of this symbol to the correct outputs, which correspond to the LEDs. When we compiled and programmed the code to the FPGA, it worked correctly ~~and we high fived~~.
 ![alt text](http://i63.tinypic.com/ml31fk.png)
+
+### Final execution
+![alt text](http://i65.tinypic.com/qq397o.png)
+[![Blinkenlights ](http://i65.tinypic.com/qq397o.png)](https://youtu.be/4OuUAhfuz54 "Blinkenlights")
