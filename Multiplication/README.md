@@ -75,4 +75,5 @@ This approach requires to add registers after completion of each stage (in total
 __Pipelined multiplier__
 
 
-
+### Final execution
+[![Pipelined multiplication](http://i64.tinypic.com/2ldg047.png)](https://youtu.be/_2HSg7QheQg "Pipelined multiplication")
