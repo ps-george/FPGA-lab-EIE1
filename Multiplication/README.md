@@ -19,9 +19,9 @@ Each partial result represents one row of one multiplicant multiplied with a bit
 ![alt tag](http://computationstructures.org/notes/images/mul4-combinational.png)
 _4 bit multiplication_
 
-After understanding this basic many bloc multiplication we have implemented the circuit that is outlined in the docummentation. The outline to this circuit was this algorithm:
+After understanding this basic many block multiplication we have implemented the circuit that is outlined in the docummentation. The outline to this circuit was this algorithm:
 
-```
+```C
 // a and b are 5-bit numbers
 unsigned multiply(unsigned a, unsigned b)
 {
