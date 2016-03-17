@@ -62,7 +62,7 @@ __The final symbol__
 
 ####Input stored in registers as well as output
 
-Our solution enabled us to just add registers before and after the multiplication to store the results. We have assigned 2 buttons as our clocks. The first button serverd to load the input registers with values and the second button served to output the result to the LEDs. Thy symbol then looked like: 
+Our solution enabled us to just add registers before and after the multiplication to store the results. We have assigned 2 buttons as our clocks. The first button serverd to load the input registers with values and the second button served to output the result to the LEDs. The symbol then looked like: 
 
 ![alt tag](http://i65.tinypic.com/2dszkp.png)
 __Multiplication with registers__
