@@ -68,7 +68,9 @@ assign display[6] = ~decimal[3] & (~decimal[2] | decimal[1]) &
    ![alt text](http://s9.postimg.org/5n6bhl2mn/Screen_Shot_2016_03_18_at_9_23_21.png)
   - In order to get the split button to work we created a block which is a 4-bit transparent latch with an enable. When the enable is high, whatever is passed into the block is immediately passed to the output; since the buttons are active low, this means in normal operation the split signal is high. Conversely, when the split button is pressed, the signal goes to low, and the output of the latch stays at whatever it had been when the button was pressed - the counters continue counting in the background so when the button is released the new time is displayed instantly.
    ![alt text](http://i67.tinypic.com/24lrhwj.png)
+
 ### Final execution
+
 ![alt text](http://i68.tinypic.com/sl4qq8.png)
 [![Stopwatch demonstration](http://i68.tinypic.com/1pi7g0.png)](https://youtu.be/1N2TEmU0eFQ "Stopwatch demonstration")
 
