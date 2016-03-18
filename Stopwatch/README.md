@@ -64,6 +64,7 @@ assign display[6] = ~decimal[3] & (~decimal[2] | decimal[1]) &
 
 #### 4. A block to handle the push-button functionality and state machine.
     ![alt text](http://i66.tinypic.com/2i79snm.jpg)
+   ![alt text](http://i67.tinypic.com/24lrhwj.png)
 ### Final execution
 ![alt text](http://i68.tinypic.com/sl4qq8.png)
 [![Stopwatch demonstration](http://i68.tinypic.com/1pi7g0.png)](https://youtu.be/1N2TEmU0eFQ "Stopwatch demonstration")
