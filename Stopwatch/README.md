@@ -63,7 +63,7 @@ assign display[6] = ~decimal[3] & (~decimal[2] | decimal[1]) &
    __4 counters (from 0 to 10)__
 
 #### 4. A block to handle the push-button functionality and state machine.
-    ![alt text](http://i66.tinypic.com/2i79snm.jpg)
+   ![alt text](http://s9.postimg.org/5n6bhl2mn/Screen_Shot_2016_03_18_at_9_23_21.png)
    ![alt text](http://i67.tinypic.com/24lrhwj.png)
 ### Final execution
 ![alt text](http://i68.tinypic.com/sl4qq8.png)
