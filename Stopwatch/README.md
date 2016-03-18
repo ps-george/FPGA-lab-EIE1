@@ -63,7 +63,10 @@ assign display[6] = ~decimal[3] & (~decimal[2] | decimal[1]) &
    __4 counters (from 0 to 10)__
 
 #### 4. A block to handle the push-button functionality and state machine.
+  - In order to create a start button that starts the stopwatch indefinitely after one press, a D-flipflop has been used. The input of the flipflop is connect to VCC, and so when the button is pressed it is passed through to the output, enabling the clock of the frequency divider.
+  - When the reset button is pressed, the signal is inverted (so it becomes HIGH) and sent to each of the counters to asynchronously reset them to 0. At the same time, the signal is fed into the reset of the start D-flipflop, setting its output to 0 which stops the clock of the frequency divider, ceasing all counting on the stopwatch.
    ![alt text](http://s9.postimg.org/5n6bhl2mn/Screen_Shot_2016_03_18_at_9_23_21.png)
+  - In order to get the split button to work we created a block which is a 4-bit transparent latch with an enable. When the enable is high, whatever is passed into the block is immediately passed to the output; since the buttons are active low, this means in normal operation the split signal is high. Conversely, when the split button is pressed, the signal goes to low, and the output of the latch stays at whatever it had been when the button was pressed - the counters continue counting in the background so when the button is released the new time is displayed instantly.
    ![alt text](http://i67.tinypic.com/24lrhwj.png)
 ### Final execution
 ![alt text](http://i68.tinypic.com/sl4qq8.png)
