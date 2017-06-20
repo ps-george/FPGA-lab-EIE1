@@ -1,6 +1,6 @@
 # EIE1-FPGA-lab-2016
 
-###Martin Ferianc and George Punter
+### Martin Ferianc and George Punter
 -------------------------------
 This is docummentation for the FPGA Lab in the Spring Term 2016 at Imperial College London, Department of Electronic and Electrical Engineering Year 1
 
