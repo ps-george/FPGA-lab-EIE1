@@ -1,7 +1,6 @@
 # EIE1-FPGA-lab-2016
 
-###Martin Ferianc and George Punter
--------------------------------
+## Description
 This is docummentation for the FPGA Lab in the Spring Term 2016 at Imperial College London, Department of Electronic and Electrical Engineering Year 1
 
 The goals of this lab were to:
@@ -24,3 +23,6 @@ The experiments consisted out of:
 -  _Pipelined multiplier_: Multiplication is a form of repeated addition, and while there are some multiplier blocks built into the FPGA, it is useful to know how they are constructed. The notion of pipelining is also an important concept for your project - how can we (and why do we) split one operation across multiple consecutive cycles?
   
 -  _Stopwatch_: The DE0 contains a 4-digit 7-segment output display, with each segment driven by one output pin. For this experiment we will be creating a stopwatch which will count to 99, displaying seconds and milliseconds on the 7-segment output display. It will be controlled by three buttons; Start, Reset, and Split.
+
+## Authors
+Martin Ferianc and George Punter. 2016.
